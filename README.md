@@ -26,6 +26,14 @@
 * `MVNZ`- Move `Memory[Value0]` order if flag is non-zero
 * `NOP`- No operation
 
+## Robot Order
+* `ROBOT:MOVE`- Move 1 to `Memory[Value0]` dir
+* `ROBOT:TURNR`- Turn right
+* `ROBOT:TURNL`- Turn left
+* `ROBOT:DIG`- Dig 1 block to `Memory[Value0]` dir
+* `ROBOT:COLLECT`- Collect nearby items
+* `ROBOT:EJECT`- Eject all inventory items
+
 ## Program Data
 ```
 root: Order
@@ -44,4 +52,8 @@ root: ProgramCore
 ├ Memory: int[8]
 ├ Flag: int
 └ Stack: int[]
+```
+```
+root: RobotCore
+└ Inventory: Item[]
 ```
