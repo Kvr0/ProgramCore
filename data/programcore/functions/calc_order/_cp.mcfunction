@@ -24,7 +24,7 @@ execute if score $Value0 Temporary > $Value1 Temporary run scoreboard players se
 execute if score $Value0 Temporary = $Value1 Temporary run scoreboard players set $Flag Temporary 0
 execute if score $Value0 Temporary < $Value1 Temporary run scoreboard players set $Flag Temporary -1
 
-execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ProgramCoreFlag int 1 run scoreboard players get $Flag Temporary
+execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ProgramCore.Flag int 1 run scoreboard players get $Flag Temporary
 
 scoreboard players reset $Value0 Temporary
 scoreboard players reset $Value1 Temporary
