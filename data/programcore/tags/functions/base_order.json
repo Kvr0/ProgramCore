@@ -9,6 +9,7 @@
         "programcore:base_order/cls",
         "programcore:base_order/wait",
         "programcore:base_order/move",
+        "programcore:base_order/parallel",
         "programcore:base_order/nyan"
     ]
 }
