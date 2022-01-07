@@ -1,5 +1,16 @@
+import argparse
 
-target_path = input('TargetPath: ')
+parser = argparse.ArgumentParser()
+parser.add_argument('--d',help='Specify Target Path',type=str)
+
+target_path = ''
+
+args = parser.parse_args()
+
+if args.d:
+    target_path = args.d
+else:
+    target_path = input('TargetPath: ')
 
 with open(target_path,'r') as file:
     order_list = []
