@@ -19,6 +19,8 @@
 * `MUL`- Mul `Memory[Value1]` to `Memory[Value0]`
 * `DIV`- Div `Memory[Value1]` to `Memory[Value0]`
 * `MOD`- Mod `Memory[Value1]` to `Memory[Value0]`
+* `INC`- Increment `Memory[Value0]`
+* `DEC`- Decrement `Memory[Value0]`
 * `CP`- Compare `Memory[Value0]` with `Memory[Value1]`
 * `MVP`- Move `Memory[Value0]` order if flag is plus
 * `MVM`- Move `Memory[Value0]` order if flag is minus
