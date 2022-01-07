@@ -1,0 +1,27 @@
+# Move Dir
+DC 4 2
+# Place Dir
+DC 5 3
+# # Parallel Num
+# DC 2 4
+
+# Back Order Num
+DC -6 5
+
+INVENTORY:COLLECT
+
+INVENTORY:SWAP
+
+PARALLEL 4
+# Move Up
+ROBOT:MOVE 2
+# Place Down
+ROBOT:PLACE 3
+
+INVENTORY:EMPTY
+
+MVZ 5
+
+INVENTORY:EJECT
+
+END
