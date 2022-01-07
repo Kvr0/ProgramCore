@@ -1,0 +1,28 @@
+#
+# Transport Item
+#
+
+# Max Move Distance
+DC 3 0
+# Move Direction
+DC 0 1
+# Moved Distance
+DC 0 2
+# Move Num
+DC -4 3
+
+# Collect Item
+ROBOT:COLLECT
+
+# Move
+ROBOT:MOVE 1
+INC 2
+CP 0 2
+# 0(Max Move Distance) > 2(Moved Distance)
+MVP 3
+
+# Eject Item
+ROBOT:EJECT
+
+# End
+END
