@@ -2,6 +2,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--d',help='Specify Target Path',type=str)
+parser.add_argument('--f',help='Output file path',type=str)
 
 target_path = ''
 
@@ -37,5 +38,14 @@ with open(target_path,'r') as file:
                     order += ',value1:'+value1
                 order_list.append('{'+order+'}')
 
-    s = '{Orders:['+','.join(order_list)+'],EOP:false}'
-    print(s)
+    program = '{Orders:['+','.join(order_list)+'],EOP:false}'
+    print(program)
+
+    if args.f:
+        with open(args.f,'w') as outf:
+            ss = [
+                'data modify storage programcore: Program set value '+program,
+                'function programcore:reset_rundata',
+                'function programcore:load_program'
+            ]
+            outf.writelines([s+'\n' for s in ss])
