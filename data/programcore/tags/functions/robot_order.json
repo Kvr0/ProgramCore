@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "programcore:robot_order/move",
+        "programcore:robot_order/turnr",
+        "programcore:robot_order/turnl",
+        "programcore:robot_order/dig",
+        "programcore:robot_order/collect",
+        "programcore:robot_order/eject"
+    ]
+}
