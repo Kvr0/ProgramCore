@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "programcore:inventory_order/collect",
+        "programcore:inventory_order/eject",
+        "programcore:inventory_order/swap",
+        "programcore:inventory_order/empty"
+    ]
+}

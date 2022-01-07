@@ -3,6 +3,7 @@
     "values": [
         "#programcore:base_order",
         "#programcore:calc_order",
-        "#programcore:robot_order"
+        "#programcore:robot_order",
+        "#programcore:inventory_order"
     ]
 }

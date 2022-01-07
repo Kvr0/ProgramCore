@@ -35,8 +35,11 @@
 * `ROBOT:TURNR`- Turn right
 * `ROBOT:TURNL`- Turn left
 * `ROBOT:DIG`- Dig 1 block to `Registory[Value0]` dir
-* `ROBOT:COLLECT`- Collect nearby items
-* `ROBOT:EJECT`- Eject all inventory items
+* `ROBOT:PLACE`- Place Block to `Registory[Value0]` dir
+
+## Inventory Order
+* `INVENTORY:COLLECT`- Collect nearby items
+* `INVENTORY:EJECT`- Eject all inventory items
 
 ## Program Data
 ```

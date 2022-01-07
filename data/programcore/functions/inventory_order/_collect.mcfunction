@@ -1,6 +1,6 @@
-#> programcore:robot_order/_collect
+#> programcore:inventory_order/_collect
 #
-# @within function programcore:robot_order/collect
+# @within function programcore:inventory_order/collect
 
 execute positioned ~-0.5 ~-0.5 ~-0.5 run tag @e[type=item,dx=0] add collect_item
 
