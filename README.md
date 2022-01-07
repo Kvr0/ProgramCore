@@ -9,6 +9,9 @@
 * `PUSH`- Push `Registory[Value0]` to `Stack`
 * `POP`- Pop from `Stack` to `Registory[Value0]`
 * `CLS`- Clear stack
+* `GET`- Load `Registory[Value0]` memory to `Registory`
+* `SET`- Store `Registory[Value0]` memory from `Registory`
+* `CLM`- Clear `Registory[Value0]` memory
 * `WAIT`- Wait `Registory[Value0]` tick
 * `MOVE`- Move `Registory[Value0]` order
 * `PARALLEL`- Run `Registory[Value0]` order in 1 tick
@@ -43,6 +46,8 @@
 * `INVENTORY:SWAP`- Swap MainHand Item With `Inventory[0]`
 * `INVENTORY:EMPTY`- If Inventory is empty set flag to 1
 
+## Container Order
+
 ## Program Data
 ```
 root: Order
@@ -60,6 +65,7 @@ root: ProgramCore
 ├ Program: Program
 ├ Registory: int[8]
 ├ Flag: int
+├ Memory: Registory[4]
 └ Stack: int[]
 ```
 ```
