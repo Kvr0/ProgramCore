@@ -40,6 +40,8 @@
 ## Inventory Order
 * `INVENTORY:COLLECT`- Collect nearby items
 * `INVENTORY:EJECT`- Eject all inventory items
+* `INVENTORY:SWAP`- Swap MainHand Item With `Inventory[0]`
+* `INVENTORY:EMPTY`- If Inventory is empty set flag to 1
 
 ## Program Data
 ```
