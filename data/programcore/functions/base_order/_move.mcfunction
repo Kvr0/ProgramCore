@@ -22,3 +22,6 @@
 
 ## Reset
     scoreboard players reset $MoveNum Temporary
+
+## ProgramWaitTime
+    scoreboard players set @s ProgramWaitTime 5

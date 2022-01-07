@@ -11,11 +11,11 @@ execute if data storage programcore: {NextOrder:{value0:5}} store result score $
 execute if data storage programcore: {NextOrder:{value0:6}} store result score $Dir Temporary run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ProgramCore.Registory[6]
 execute if data storage programcore: {NextOrder:{value0:7}} store result score $Dir Temporary run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ProgramCore.Registory[7]
 
-execute if score $Dir Temporary matches 0 positioned ^ ^ ^1 run function api:set_block/set_mainhand
-execute if score $Dir Temporary matches 1 positioned ^1 ^ ^ run function api:set_block/set_mainhand
-execute if score $Dir Temporary matches 2 positioned ^ ^ ^-1 run function api:set_block/set_mainhand
-execute if score $Dir Temporary matches 3 positioned ^-1 ^ ^ run function api:set_block/set_mainhand
-execute if score $Dir Temporary matches 4 positioned ~ ~1 ~ run function api:set_block/set_mainhand
-execute if score $Dir Temporary matches 5 positioned ~ ~-1 ~ run function api:set_block/set_mainhand
+execute if score $Dir Temporary matches 0 rotated as @s at @s positioned ^ ^ ^1 run function api:set_block/set_mainhand
+execute if score $Dir Temporary matches 1 rotated as @s at @s positioned ^1 ^ ^ run function api:set_block/set_mainhand
+execute if score $Dir Temporary matches 2 rotated as @s at @s positioned ^ ^ ^-1 run function api:set_block/set_mainhand
+execute if score $Dir Temporary matches 3 rotated as @s at @s positioned ^-1 ^ ^ run function api:set_block/set_mainhand
+execute if score $Dir Temporary matches 4 rotated as @s at @s positioned ~ ~1 ~ run function api:set_block/set_mainhand
+execute if score $Dir Temporary matches 5 rotated as @s at @s positioned ~ ~-1 ~ run function api:set_block/set_mainhand
 
 scoreboard players reset $Dir Temporary

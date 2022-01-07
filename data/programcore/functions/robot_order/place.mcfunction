@@ -4,4 +4,4 @@
 #
 # @within tag/function programcore:robot_order
 
-execute if data storage programcore: {NextOrder:{id:"ROBOT:Place"}} run function programcore:robot_order/_place
+execute if data storage programcore: {NextOrder:{id:"ROBOT:PLACE"}} run function programcore:robot_order/_place
