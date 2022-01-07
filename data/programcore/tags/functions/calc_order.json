@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "programcore:calc_order/add",
+        "programcore:calc_order/sub",
+        "programcore:calc_order/mul",
+        "programcore:calc_order/div",
+        "programcore:calc_order/mod",
+        "programcore:calc_order/cp",
+        "programcore:calc_order/mvp",
+        "programcore:calc_order/mvm",
+        "programcore:calc_order/mvz",
+        "programcore:calc_order/mvnz",
+        "programcore:calc_order/nop"
+    ]
+}

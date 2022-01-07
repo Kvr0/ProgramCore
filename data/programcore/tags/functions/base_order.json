@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "programcore:base_order/end",
+        "programcore:base_order/dc",
+        "programcore:base_order/ld",
+        "programcore:base_order/push",
+        "programcore:base_order/pop",
+        "programcore:base_order/cls",
+        "programcore:base_order/wait",
+        "programcore:base_order/move",
+        "programcore:base_order/nyan"
+    ]
+}
