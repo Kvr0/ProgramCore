@@ -21,6 +21,7 @@
 * `MOD`- Mod `Registory[Value1]` to `Registory[Value0]`
 * `INC`- Increment `Registory[Value0]`
 * `DEC`- Decrement `Registory[Value0]`
+* `RND`- Store Random Number (0-`Registory[Value0]`-1) to `Registory[Value1]`
 * `CP`- Compare `Registory[Value0]` with `Registory[Value1]`
 * `MVP`- Move `Registory[Value0]` order if flag is plus
 * `MVM`- Move `Registory[Value0]` order if flag is minus

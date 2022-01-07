@@ -8,6 +8,7 @@
         "programcore:calc_order/mod",
         "programcore:calc_order/inc",
         "programcore:calc_order/dec",
+        "programcore:calc_order/rnd",
         "programcore:calc_order/cp",
         "programcore:calc_order/mvp",
         "programcore:calc_order/mvm",
