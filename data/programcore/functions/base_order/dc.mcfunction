@@ -1,6 +1,6 @@
 #> programcore:base_order/dc
 #
-# Store `Value0` to `Memory[Value1]`
+# Store `Value0` to `Registory[Value1]`
 #
 # @within tag/function programcore:base_order
 

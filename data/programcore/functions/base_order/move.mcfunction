@@ -1,6 +1,6 @@
 #> programcore:base_order/move
 #
-# Move `Memory[Value0]` order
+# Move `Registory[Value0]` order
 #
 # @within tag/function programcore:base_order
 

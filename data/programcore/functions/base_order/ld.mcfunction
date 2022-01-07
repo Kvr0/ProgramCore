@@ -1,6 +1,6 @@
 #> programcore:base_order/ld
 #
-# Load `Memory[Value0]` from `Memory[Value1]`
+# Load `Registory[Value0]` from `Registory[Value1]`
 #
 # @within tag/function programcore:base_order
 

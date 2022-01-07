@@ -1,6 +1,6 @@
 #> programcore:robot_order/move
 #
-# Move 1 to `Memory[Value0]` dir
+# Move 1 to `Registory[Value0]` dir
 #
 # @within tag/function programcore:robot_order
 

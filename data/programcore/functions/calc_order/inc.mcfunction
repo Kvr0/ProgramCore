@@ -1,6 +1,6 @@
 #> programcore:calc_order/inc
 #
-# Increment `Memory[Value0]`
+# Increment `Registory[Value0]`
 #
 # @within tag/function programcore:calc_order
 

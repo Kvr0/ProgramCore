@@ -1,6 +1,6 @@
 #> programcore:base_order/wait
 #
-# Wait `Memory[Value0]` tick
+# Wait `Registory[Value0]` tick
 #
 # @within tag/function programcore:base_order
 

@@ -1,6 +1,6 @@
 #> programcore:calc_order/cp
 #
-# Compare `Memory[Value0]` with `Memory[Value1]`
+# Compare `Registory[Value0]` with `Registory[Value1]`
 #
 # @within tag/function programcore:calc_order
 

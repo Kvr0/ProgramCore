@@ -1,6 +1,6 @@
 #> programcore:base_order/push
 #
-# Push `Memory[Value0]` to `Stack`
+# Push `Registory[Value0]` to `Stack`
 #
 # @within tag/function programcore:base_order
 

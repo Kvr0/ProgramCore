@@ -1,6 +1,6 @@
 #> programcore:calc_order/add
 #
-# Add `Memory[Value1]` to `Memory[Value0]`
+# Add `Registory[Value1]` to `Registory[Value0]`
 #
 # @within tag/function programcore:calc_order
 

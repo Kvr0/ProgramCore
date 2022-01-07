@@ -1,6 +1,6 @@
 #> programcore:calc_order/mvz
 #
-#  Move `Memory[Value0]` order if flag is zero
+#  Move `Registory[Value0]` order if flag is zero
 #
 # @within tag/function programcore:calc_order
 

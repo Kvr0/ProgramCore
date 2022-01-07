@@ -1,6 +1,6 @@
 #> programcore:calc_order/mul
 #
-# Mul `Memory[Value1]` to `Memory[Value0]`
+# Mul `Registory[Value1]` to `Registory[Value0]`
 #
 # @within tag/function programcore:calc_order
 

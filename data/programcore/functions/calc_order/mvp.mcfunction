@@ -1,6 +1,6 @@
 #> programcore:calc_order/mvp
 #
-# Move `Memory[Value0]` order if flag is plus
+# Move `Registory[Value0]` order if flag is plus
 #
 # @within tag/function programcore:calc_order
 

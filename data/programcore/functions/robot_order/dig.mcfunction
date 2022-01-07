@@ -1,6 +1,6 @@
 #> programcore:robot_order/dig
 #
-# Dig 1 block to `Memory[Value0]` dir
+# Dig 1 block to `Registory[Value0]` dir
 #
 # @within tag/function programcore:robot_order
 

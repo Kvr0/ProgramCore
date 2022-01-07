@@ -1,6 +1,6 @@
 #> programcore:calc_order/div
 #
-# Div `Memory[Value1]` to `Memory[Value0]`
+# Div `Registory[Value1]` to `Registory[Value0]`
 #
 # @within tag/function programcore:calc_order
 
