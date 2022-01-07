@@ -11,6 +11,7 @@
 * `CLS`- Clear stack
 * `WAIT`- Wait `Registory[Value0]` tick
 * `MOVE`- Move `Registory[Value0]` order
+* `PARALLEL`- Run `Registory[Value0]` order in 1 tick
 * `NYAN`- Say "NYAN"
 
 ## Calc Order
