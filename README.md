@@ -42,11 +42,15 @@
 
 ## Inventory Order
 * `INVENTORY:COLLECT`- Collect nearby items
-* `INVENTORY:EJECT`- Eject all inventory items
-* `INVENTORY:SWAP`- Swap MainHand Item With `Inventory[0]`
+* `INVENTORY:EJECT`- Eject all `Inventory` items
+* `INVENTORY:SWAP`- Swap mainHand item With `Inventory[0]`
+* `INVENTORY:STORE`- Store mainHand item to `Inventory`
 * `INVENTORY:EMPTY`- If Inventory is empty set flag to 1
 
 ## Container Order
+* `CONTAINER:SWAP`- Swap item from `Registory[Value0]` slot with MainHand
+* `CONTAINER:GET`- Get item from `Registory[Value0]` slot to `Inventory`
+
 
 ## Program Data
 ```
