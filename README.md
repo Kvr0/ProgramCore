@@ -2,6 +2,10 @@
  
 プログラム動作の制御
 
+## 前提条件
+* `Minecraft 1.18`
+* `RootCore` (https://github.com/Kvr0/RootCore)
+
 ## Base Order
 * `END`- End of program
 * `DC`- Store `Value0` to `Registory[Value1]`
