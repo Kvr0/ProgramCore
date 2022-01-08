@@ -50,6 +50,7 @@
 ## Container Order
 * `CONTAINER:SWAP`- Swap item from `Registory[Value0]` slot with MainHand to `Registory[Value1]` dir
 * `CONTAINER:GET`- Get item from `Registory[Value0]` slot at `Registory[Value1]` dir container to `Inventory`
+* `CONTAINER:GETALL`- Get items from `Registory[Value0]` dir container to `Inventory`
 * `CONTAINER:INSERT`- Insert MainHand item to `Registory[Value0]` dir
 * `CONTAINER:EMPTY`- If `Registory[Value0]` dir Container is empty set flag to 1
 * `CONTAINER:SLOTEMPTY`- If `Registory[Value0]` dir Container's `Registory[Value1]` slot is empty set flag to 1
