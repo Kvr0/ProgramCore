@@ -1,0 +1,15 @@
+
+# Container Dir
+DC 5 0
+# Wait Time
+DC 10 1
+# Jump Num
+DC -5 2
+
+INVENTORY:COLLECT
+INVENTORY:SWAP
+CONTAINER:INSERT 0
+WAIT 1
+MOVE 2
+
+END

@@ -1,0 +1,14 @@
+
+# Container Dir
+DC 5 0
+# Wait Time
+DC 10 1
+# Jump Num
+DC -4 2
+
+CONTAINER:GETALL 0
+INVENTORY:EJECT
+WAIT 1
+MOVE 2
+
+END
