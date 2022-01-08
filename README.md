@@ -48,8 +48,8 @@
 * `INVENTORY:EMPTY`- If Inventory is empty set flag to 1
 
 ## Container Order
-* `CONTAINER:SWAP`- Swap item from `Registory[Value0]` slot with MainHand
-* `CONTAINER:GET`- Get item from `Registory[Value0]` slot to `Inventory`
+* `CONTAINER:SWAP`- Swap item from `Registory[Value0]` slot with MainHand to `Registory[Value1]` dir
+* `CONTAINER:GET`- Get item from `Registory[Value0]` slot at `Registory[Value1]` dir container to `Inventory`
 
 
 ## Program Data
