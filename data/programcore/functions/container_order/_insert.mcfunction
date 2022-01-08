@@ -15,11 +15,14 @@ data modify block -30000000 0 43885 Items set value []
 
 item replace block -30000000 0 43885 container.0 from entity @s weapon.mainhand
 
-execute if score $Value1 Temporary matches 0 positioned ^ ^ ^1 run loot insert ~ ~ ~ mine -30000000 0 43885 air{drop_contents:1b}
-execute if score $Value1 Temporary matches 1 positioned ^1 ^ ^ run loot insert ~ ~ ~ mine -30000000 0 43885 air{drop_contents:1b}
-execute if score $Value1 Temporary matches 2 positioned ^ ^ ^-1 run loot insert ~ ~ ~ mine -30000000 0 43885 air{drop_contents:1b}
-execute if score $Value1 Temporary matches 3 positioned ^-1 ^ ^ run loot insert ~ ~ ~ mine -30000000 0 43885 air{drop_contents:1b}
-execute if score $Value1 Temporary matches 4 positioned ~ ~1 ~ run loot insert ~ ~ ~ mine -30000000 0 43885 air{drop_contents:1b}
-execute if score $Value1 Temporary matches 5 positioned ~ ~-1 ~ run loot insert ~ ~ ~ mine -30000000 0 43885 air{drop_contents:1b}
+execute if score $Value0 Temporary matches 0 positioned ^ ^ ^1 store success score $InsertResult Temporary run loot insert ~ ~ ~ mine -30000000 0 43885 air{drop_contents:1b}
+execute if score $Value0 Temporary matches 1 positioned ^1 ^ ^ store success score $InsertResult Temporary run loot insert ~ ~ ~ mine -30000000 0 43885 air{drop_contents:1b}
+execute if score $Value0 Temporary matches 2 positioned ^ ^ ^-1 store success score $InsertResult Temporary run loot insert ~ ~ ~ mine -30000000 0 43885 air{drop_contents:1b}
+execute if score $Value0 Temporary matches 3 positioned ^-1 ^ ^ store success score $InsertResult Temporary run loot insert ~ ~ ~ mine -30000000 0 43885 air{drop_contents:1b}
+execute if score $Value0 Temporary matches 4 positioned ~ ~1 ~ store success score $InsertResult Temporary run loot insert ~ ~ ~ mine -30000000 0 43885 air{drop_contents:1b}
+execute if score $Value0 Temporary matches 5 positioned ~ ~-1 ~ store success score $InsertResult Temporary run loot insert ~ ~ ~ mine -30000000 0 43885 air{drop_contents:1b}
+
+execute if score $Value0 Temporary matches 0..5 if score $InsertResult Temporary matches 1 run item replace entity @s weapon.mainhand with air
 
 scoreboard players reset $Value0 Temporary
+scoreboard players reset $InsertResult Temporary

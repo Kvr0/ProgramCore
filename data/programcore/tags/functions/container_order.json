@@ -2,6 +2,10 @@
     "replace": false,
     "values": [
         "programcore:container_order/swap",
-        "programcore:container_order/get"
+        "programcore:container_order/get",
+        "programcore:container_order/getall",
+        "programcore:container_order/insert",
+        "programcore:container_order/empty",
+        "programcore:container_order/slotempty"
     ]
 }
