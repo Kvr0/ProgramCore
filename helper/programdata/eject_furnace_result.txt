@@ -1,0 +1,16 @@
+
+# Furnace Slot
+DC 2 0
+# Furnace Dir
+DC 5 1
+# Wait Time
+DC 100 2
+# Jump Num
+DC 4 3
+
+CONTAINER:GET 0 1
+INVENTORY:EJECT
+WAIT 2
+MOVE 3
+
+END
